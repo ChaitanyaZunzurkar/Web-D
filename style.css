@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    /* border: 2px solid red; */
+    width: 95vw;
+    margin: auto;
+}
+#navigation ul li{
+    display: inline-block;
+    padding: 15px 45px;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navBar ul li h2{
+    width: 141.34px;
+    height: 34.99px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #3446E8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navBar ul li img{
+    width: 20px;
+}
+.navBar input{
+    width: 120%;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 7px;
+}
+.container2{
+    /* border: 2px solid red; */
+    height: 20vh;
+    width: 88vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+.item{
+    /* border: 2px solid red; */
+    height: 25vh;
+    width: 10vw;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.container1{
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 88vw;
+    margin: auto;
+    background-image: url("");
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+}
+.box p{
+    text-align: center;
+}
+.item img{
+    width: 98%;
+    height: 98%;
+}
+.heading{
+    width: 80%;
+    margin: auto;
+    font-size: 32px;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 88vw;
+    margin: auto;
+}
+.container1 img{
+    width: 88vw;
+    
+}
+.categories{
+    width: 30vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(246, 243, 243);
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px 20px;
+}
+.picture{
+    width: 20%;
+    height: 80%;
+    /* border: 2px solid red; */
+    margin: 5px;
+}
+.picture img{
+    width: 98%;
+    height: 98%;
+}
+.picture_content :first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container4{
+    background-color: rgb(76, 68, 68);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+.list1 , .list2 , .list3{
+    width: 30%;
+    
+}
+.container4 ul li{
+    list-style: none;
+}
+.container4 a{
+    text-decoration: none;
+    color: white;
+}
+.section{
+    border: 2px solid black;
+    margin: 10px;
+}
